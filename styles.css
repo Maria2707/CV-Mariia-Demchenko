@@ -1,0 +1,191 @@
+* {
+    font-family: "Arial";
+}
+
+body{
+    padding: 40px;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 40%;
+    border: 0.5px solid black;
+    /* background-color: #f2f2f2; */
+}
+
+/* Header */
+
+header{
+    /* gap: 20px; */
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.userInfo h2{
+    margin-bottom: 15px;
+    color: #42858C;
+}
+
+.userInfo h1{
+    font-size: 30px;
+}
+
+.userInfo p{
+    font-size: 12px;
+}
+
+.userInfo img {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+img{
+    border-radius: 5%;
+    width: 130px;
+    height: 130px;
+}
+
+.userImg{
+    width: 25%;
+}
+
+.userInfo{
+    width: 75%;
+}
+
+/*MAIN*/
+
+main{
+    /* gap: 20px; */
+    display: flex;
+}
+
+.experienceItemOne{
+    margin-bottom: 25px;
+}
+
+.experienceItemOneTwo{
+    margin-bottom: 25px;
+}
+
+.experienceItemOneThree{
+    margin-bottom: 25px;
+}
+
+.experienceItemOneFour{
+    margin-bottom: 30px;
+}
+
+.leftContainer{
+    width: 75%;
+}
+
+.profileContent{
+    font-size: 12px;
+    width: 92%;
+}
+
+.profileSidebar {
+  width: 25%;
+  color: #73808D;
+  font-size: 12px;
+  line-height: 13px; 
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h2{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h4{
+    margin-bottom: 10px;
+    color: #73808D;
+}
+
+.industryKnowledge{
+    margin-bottom: 30px;
+}
+
+.tolls{
+    margin-bottom: 30px;
+}
+
+.skills{
+    margin-bottom: 30px;
+}
+
+.languages{
+    margin-bottom: 30px;
+}
+
+.profileContent p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 3px;
+}
+
+.profileSidebar p{
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 5px;
+}
+
+.sectionTitle p{
+    line-height: 5px;
+}
+
+.jobTitle, .degree, .sectionTitle{
+    font-weight: bold;
+    color: #42858C;
+}
+
+h6{
+    font-size: 11px;
+    color: #73808D;
+    margin-top: 4px;
+}
+
+.social img{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.social a{
+    color: #3996c2;
+}
+
+@media (max-width: 767px) {
+    body {
+        border: none;
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px){
+    .userImg img{
+        height: 60%;
+        width: 100%;
+    }
+    body{
+        padding: 15px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .userImg img{
+        height: 60%;
+        width: 100%;
+    }
+    body{
+        padding: 20px;
+    }
+}
